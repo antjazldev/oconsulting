@@ -15,6 +15,7 @@ namespace LJBPDemo.Infraestructure.Crosscutting.IOC
            builder.RegisterType<ApplicationServiceCuenta>().As<IApplicationServiceCuenta>();
            builder.RegisterType<ApplicationServiceCliente>().As<IApplicationServiceCliente>();
            builder.RegisterType<ApplicationServicePersona>().As<IApplicationServicePersona>();
+            builder.RegisterType<ApplicationServiceMovimiento>().As<IApplicationServiceMovimiento>();
 
             builder.RegisterType<ServiceCliente>().As<IServiceCliente>();
            builder.RegisterType<ServicePersona>().As<IServicePersona>();

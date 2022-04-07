@@ -13,7 +13,7 @@ namespace LJBPDemo.Infraestructure.Data
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-    => options.UseSqlServer("Data Source=ANTJAZLDEV;Initial Catalog=testapi;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+    => options.UseSqlServer("Data Source=USV3-WSWIN10-01;Initial Catalog=testapi;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
 
         public DbSet<Persona> Personas { get; set; }

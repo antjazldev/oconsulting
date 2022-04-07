@@ -10,7 +10,6 @@ namespace LJBPDemo.Application.DTOs
         public long IdCliente { get; set; }
         public string Password { get; set; }
         public bool Estado { get; set; }
-        public ICollection<Cuenta> Cuentas { get; set; }
 
         new public class MapProfile : AutoMapper.Profile
         {
@@ -26,8 +25,7 @@ namespace LJBPDemo.Application.DTOs
                 .ForMember(dest => dest.Telefono, opt => opt.MapFrom(src => src.Telefono))
                 .ForMember(dest => dest.IdCliente, opt => opt.MapFrom(src => src.IdCliente))
                 .ForMember(dest => dest.Password, opt => opt.MapFrom(src => src.Password))
-                .ForMember(dest => dest.Estado, opt => opt.MapFrom(src => src.Estado))
-                .ForMember(dest => dest.Cuentas, opt => opt.MapFrom(src => src.Cuentas));
+                .ForMember(dest => dest.Estado, opt => opt.MapFrom(src => src.Estado));
             }
         }
     }
