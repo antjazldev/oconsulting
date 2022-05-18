@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LJBPDemo.Infraestructure\LJBPDemo.Infraestructure.csproj" />
+    <ProjectReference Include="..\LJBPDemo.Infraestructure\LJDemo.Infraestructure.csproj" />
   </ItemGroup>
 
 

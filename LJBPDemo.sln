@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Domain", "3 Domain", "{6F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infraestructure", "4 Infraestructure", "{1E25CBA9-7113-487C-9BE3-995FEB9E91D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJBPDemo.API", "LJBPDemo.API\LJBPDemo.API.csproj", "{FB14F173-AB04-4171-8643-9F05473AA1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJDemo.API", "LJBPDemo.API\LJDemo.API.csproj", "{FB14F173-AB04-4171-8643-9F05473AA1AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJBPDemo.Application", "LJBPDemo.Application\LJBPDemo.Application.csproj", "{AA0D8488-46DB-4B81-BCC5-3EEF9FABC9B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJDemo.Application", "LJBPDemo.Application\LJDemo.Application.csproj", "{AA0D8488-46DB-4B81-BCC5-3EEF9FABC9B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJBPDemo.Domain", "LJBPDemo.Domain\LJBPDemo.Domain.csproj", "{0B69F3FB-1287-4EFB-97E2-D11C5CD2F187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJDemo.Domain", "LJBPDemo.Domain\LJDemo.Domain.csproj", "{0B69F3FB-1287-4EFB-97E2-D11C5CD2F187}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJBPDemo.Domain.Core", "LJBPDemo.Domain.Core\LJBPDemo.Domain.Core.csproj", "{23E5382F-B98A-4B6F-9E3A-6AA7CD0AA04C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJDemo.Domain.Core", "LJBPDemo.Domain.Core\LJDemo.Domain.Core.csproj", "{23E5382F-B98A-4B6F-9E3A-6AA7CD0AA04C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJBPDemo.Domain.Services", "LJBPDemo.Domain.Services\LJBPDemo.Domain.Services.csproj", "{04B9E388-B077-47B3-917D-C11D3330E146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJDemo.Domain.Services", "LJBPDemo.Domain.Services\LJDemo.Domain.Services.csproj", "{04B9E388-B077-47B3-917D-C11D3330E146}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJBPDemo.Infraestructure", "LJBPDemo.Infraestructure\LJBPDemo.Infraestructure.csproj", "{05CE35B0-8A46-4AB4-ABAC-A6E33C20E911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LJDemo.Infraestructure", "LJBPDemo.Infraestructure\LJDemo.Infraestructure.csproj", "{05CE35B0-8A46-4AB4-ABAC-A6E33C20E911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
